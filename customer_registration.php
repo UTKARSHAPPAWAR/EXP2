@@ -137,6 +137,7 @@ if (isset($_GET["register"])) {
         <div class="col-md-2"></div>
     </div>
 </div>
+/* Added more JS validators */    
 <script>
     function validateForm() {
         const firstName = document.getElementById("f_name").value;
